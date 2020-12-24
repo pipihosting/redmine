@@ -1,0 +1,10 @@
+default: &default
+  issuer: redmine
+development:
+  <<: *default
+  base_domain: http://localhost:3000
+  idp_domain: https://mars.pipi
+production:
+  <<: *default
+  base_domain: https://3comms.org
+  idp_domain: https://id.pipihosting.com

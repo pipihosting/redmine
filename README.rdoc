@@ -1,5 +1,18 @@
 = Redmine
 
-Redmine is a flexible project management web application written using Ruby on Rails framework.
+## Install with SAML support
 
+- Clone https://github.com/pipihosting/redmine_omniauth_saml into plugins
+  folder 
+
+- bundle install
+
+- RAILS_ENV=production bundle exec rake redmine:plugins
+
+- Make sure the plugin is enabled from admin settings
+
+- Configure PIPI ID to have redmine SP supported and assign users access 
+
+
+---
 More details can be found in the doc directory or on the official website http://www.redmine.org
