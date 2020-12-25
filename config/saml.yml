@@ -6,5 +6,5 @@ development:
   idp_domain: https://mars.pipi
 production:
   <<: *default
-  base_domain: https://3comms.org
+  base_domain: https://3coms.org
   idp_domain: https://id.pipihosting.com
